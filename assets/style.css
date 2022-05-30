@@ -1,0 +1,170 @@
+@import url("font-awesome/css/fontawesome.min.css");
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+header {
+    background: url('image/background.jfif') no-repeat center center fixed;      /* add photo to image assets/image folder then change file name here */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 50vh 0 50vh; 
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+section {
+    padding: 150px 0;
+}
+
+h2 {
+   background-color: #6addfc; 
+   padding: 5px 10px;
+   display: inline-block;
+}
+/* Personal Website button */
+
+.btn-href{
+    background-color: #e69dfc;
+    color: white; 
+    padding: 10px 15px;
+}
+
+/* Footer */
+
+ul {
+    list-style: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+ul li {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 0 10px; 
+}
+
+ul li a {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    width: 100%; 
+}
+
+/* Icons */
+
+.fa-goodreads-g{
+    color: #f8b24f;
+}
+
+.fa-github{
+    color: #f8b24f;
+}
+
+.fa-linkedin{
+    color: #f8b24f;
+}
+
+.fa-envelope{
+    color: #f8b24f;
+}
+
+.m-0 {
+    color: #f8b24f;
+}
+
+/* fit images into the accordion name cards */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.mouse{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.mouse-icon{
+    width: 35px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.mouse-wheel{
+    height: 8px;
+    margin: 2px auto 0;
+    display: block;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-animation: 1.6s ease infinite wheel-up-down;
+    -moz-animation: 1.6s ease infinite wheel-up-down;
+    animation: 1.6s ease infinite wheel-up-down;
+}
+@-webkit-keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}@-moz-keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}@keyframes wheel-up-down {
+    0% {
+        margin-top: 2px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 0;
+    }
+}
+
+.bio {
+    font-size: 16px; 
+}
+
+i {
+    font-weight: 300; 
+}
+  
+  
+  
