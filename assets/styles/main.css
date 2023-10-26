@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+html {
+	font-style: normal;
+	font-weight: normal;
+	-ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: $indigo-100;
+  padding: 5vh 0 5vh;
+}
+
+a {
+  text-decoration: none;
+  color: #161b2f;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #161b2f;
+}
+
+h2 {
+  font-size: 30px; 
+  font-weight:600;
+  color: #161b2f;
+}
+
+.title {
+  font-size: 20px;
+  text-align: right;
+  background-color: #FFA9A3;
+  padding: 5px 10px; 
+  display: inline-block;
+}
+
+.link-body{
+  padding: 0px 50px;
+  text-decoration: none;
+  color: #595a30;
+  font-weight: 500px;
+}
+
+.link-body:hover {
+  font-weight: 1000px;
+}
+
+p{
+  font-size: 20px;
+  color: #161b2f;
+  text-align: left;
+  line-height: 30px; 
+  font-family: 'Inter', sans-serif;
+}
+
+b {
+  color: #595a30;
+}
+
+figcaption {
+  font-size: 13px; 
+  font-style: italic;
+  text-align: center;
+}
+
+li {
+  font-size: 15px;
+}
+.row {
+  padding-left: 15px;
+}
+
+.image-block {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-block img {
+    transition: transform 0.3s ease;
+}
+
+.image-block:hover img {
+    transform: scale(1.1); /* Increase the image size on hover (adjust as needed) */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Adjust the overlay background color and opacity */
+    color: #fff; /* Text color on hover */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-block:hover .overlay {
+    opacity: 1; /* Show the overlay on hover */
+}
