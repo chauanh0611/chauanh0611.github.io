@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Chau Anh Pham</title>
+  <link rel="shortcut icon" type="image/png" href="assets/image/lemonlogo.png"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        Chau Anh Pham
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-section="about">About</a></li>
+        <li><a href="#projects" data-section="projects">Projects</a></li>
+        <li><a href="#contact" data-section="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">// on the grind</p>
+      <h1>Chau Anh Pham<span class="cursor" aria-hidden="true">_</span></h1>
+    </div>
+    <div class="hero-trace" aria-hidden="true">
+      <svg viewBox="0 0 600 60" preserveAspectRatio="none" class="trace-svg">
+        <defs>
+          <pattern id="ecgUnit" width="600" height="60" patternUnits="userSpaceOnUse">
+            <path d="M0,30 L60,30 L72,30 L80,8 L88,52 L96,18 L104,30 L200,30
+                     L210,25 L220,35 L230,22 L240,38 L250,26 L260,34 L270,24 L280,36
+                     L290,28 L300,32 L310,26 L320,34 L330,25 L340,35 L350,28 L360,32
+                     L370,27 L380,33 L390,30 L400,30
+                     L410,30 L414,10 L418,30 L422,15 L426,30
+                     L470,30 L474,14 L478,30 L482,20 L486,30 L600,30"
+                  fill="none" stroke="currentColor" stroke-width="1.5" />
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="200%" height="60" fill="url(#ecgUnit)" class="trace-tile" />
+      </svg>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="channel">
+      <div class="channel-inner">
+        <p class="channel-label">[ CH.01 — BASELINE ]</p>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2>About</h2>
+            <!-- Replace this placeholder bio with your own -->
+            <p>My name is Chau Anh. I'm currently an ECE undergradute at Trinity College, </p>
+            <p>Currently interested in: <em>.</em></p>
+          </div>
+          <div class="about-photo">
+            <img src="assets/image/CAphoto.png" alt="Chau Anh Pham">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="channel">
+      <div class="channel-inner">
+        <p class="channel-label">[ CH.02 — SIGNAL ]</p>
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+          <!-- Duplicate this article block for each project -->
+          <article class="project-card">
+            <p class="project-tag">01 · EEG</p>
+            <h3>Project Name</h3>
+            <p>One or two lines describing what it is, what problem it solves, and what
+              you used to build it.</p>
+            <a href="#" class="project-link">View →</a>
+            <svg viewBox="0 0 200 24" preserveAspectRatio="none" class="card-trace" aria-hidden="true">
+              <path class="flatline" d="M0,12 L200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <path class="spike" d="M0,12 C10,7 20,17 30,11 C40,5 50,16 60,9 C70,15 80,6 90,14 C100,9 110,16 120,10 C130,6 140,16 150,10 C160,6 170,16 180,10 C190,14 195,8 200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </article>
+
+          <article class="project-card">
+            <p class="project-tag">02 · PCG</p>
+            <h3>Project Name</h3>
+            <p></p>
+            <a href="#" class="project-link">View →</a>
+            <svg viewBox="0 0 200 24" preserveAspectRatio="none" class="card-trace" aria-hidden="true">
+              <path class="flatline" d="M0,12 L200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <path class="spike" d="M0,12 L70,12 L74,3 L78,12 L82,7 L86,12 L120,12 L124,4 L128,12 L131,8 L134,12 L200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </article>
+
+          <article class="project-card">
+            <p class="project-tag">03 · HR</p>
+            <h3>Project Name</h3>
+            <p></p>
+            <a href="#" class="project-link">View →</a>
+            <svg viewBox="0 0 200 24" preserveAspectRatio="none" class="card-trace" aria-hidden="true">
+              <path class="flatline" d="M0,12 L200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <path class="spike" d="M0,12 L60,12 L66,8 L72,12 L84,12 L88,2 L92,22 L96,6 L100,12 L200,12" fill="none" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </article>
+
+          <article class="project-card">
+            <p class="project-tag">04 · IMG</p>
+            <h3>Project Name</h3>
+            <p></p>
+            <a href="#" class="project-link">View →</a>
+            <div class="scan-trace" aria-hidden="true">
+              <span class="scan-line"></span>
+              <span class="scan-bar" style="--h:22%; --d:0s"></span>
+              <span class="scan-bar" style="--h:48%; --d:0.08s"></span>
+              <span class="scan-bar" style="--h:72%; --d:0.16s"></span>
+              <span class="scan-bar" style="--h:90%; --d:0.24s"></span>
+              <span class="scan-bar" style="--h:88%; --d:0.32s"></span>
+              <span class="scan-bar" style="--h:66%; --d:0.40s"></span>
+              <span class="scan-bar" style="--h:40%; --d:0.48s"></span>
+              <span class="scan-bar" style="--h:20%; --d:0.56s"></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="channel">
+      <div class="channel-inner">
+        <p class="channel-label">[ CH.03 — CONTACT ]</p>
+        <h2>Get in touch</h2>
+        <p>The best way to reach me is email.</p>
+        <a class="email-link" href="mailto:chauanh.pham@trincoll.edu">chauanh.pham@trincoll.edu</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <svg viewBox="0 0 400 20" preserveAspectRatio="none" class="footer-trace" aria-hidden="true">
+        <path d="M0,10 L400,10" fill="none" stroke="currentColor" stroke-width="1" />
+      </svg>
+      <p class="footer-label">[ END OF TRANSMISSION ]</p>
+      <ul class="icons">
+        <li><a href="mailto:chau@umd.edu" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://github.com/chauanh0611" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+        <li><a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+      <p class="copyright">&copy; 2026 Chau Anh Pham</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
